@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- google fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./script.js" defer></script>
+
+    <title>Oh! That Book</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="logo">BOOK-SHOOK</h1>
+
+        <div class="hero">
+            <div class="hero__form">
+                <img src="./assets/flower.png" alt="flower from icons8">
+                <form>
+                    <input id="book" autocomplete="off" type="text" name = "name" placeholder="Book Name">
+                    <input id="author" autocomplete="off" type="text" name = "author" placeholder="Author Name">
+                    <input id="submit" class="form-submit" type="submit" value="ADD BOOK">
+                </form>
+            </div>
+            <img class="hero__img" src="./assets/crayon-books.png" alt="reading-book from icons8">
+        </div>
+
+        <div class="books-stored">
+            <table>
+                <thead>
+                    Books Stored
+                </thead>
+                <tbody class="library">
+                    <tr>
+                        <th>Name</th>
+                        <th>Author</th>
+                        <th></th>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
