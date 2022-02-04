@@ -2,6 +2,7 @@ let book = document.querySelector("#book");
 let author = document.querySelector("#author");
 let submitBtn = document.querySelector("#submit");
 let library = document.querySelector(".library");
+let deleteBook = document.querySelector(".delete");
 let bookAdded = document.querySelector(".remove-added");
 
 let storedBooks = [];
@@ -18,7 +19,6 @@ function addBookToLibrary(){
             library.innerHTML += `<tr>
             <td>${book.name}</td>
             <td>${book.author}</td>
-            <td><button>Delete</button></td>
         </tr>`
         )
     });
@@ -33,7 +33,7 @@ function handleSubmit(e){
         bookAdded.style.backgroundColor = "red";
         setTimeout(() => {
             bookAdded.style.display = "none";
-        }, 1500)
+        }, 2000)
         return;
     }
 
@@ -53,3 +53,4 @@ function handleSubmit(e){
 }
 
 submitBtn.addEventListener("click", handleSubmit);
+

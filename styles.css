@@ -7,6 +7,7 @@ body{
     font-family: var(--primary-font);
     background-color: rgb(22, 22, 22);
     color: white;
+    font-size: 15px;
 }
 .container{
     margin: 0 3vw;
@@ -76,6 +77,10 @@ table, th, td{
     border-collapse: collapse;
     padding: 15px;
 }
+thead{
+    font-weight: bold;
+    font-size: 25px;
+}
 .books-stored{
     display: flex;
     flex-direction: column;
@@ -87,6 +92,9 @@ button{
     padding: 0.5rem;
     border: none;
     color: white;
+}
+.delete{
+    border-radius: 5px;
 }
 
 footer{
