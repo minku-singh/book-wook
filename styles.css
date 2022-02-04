@@ -89,6 +89,29 @@ button{
     color: white;
 }
 
+footer{
+    margin-top: 5rem;
+    padding: 1rem;
+    text-align: center;
+}
+footer a{
+    color: orangered;
+}
+
+/* book added  */
+
+.remove-added{
+    display: none;
+    text-align: center;
+    background-color: orangered;
+    padding: 5px;
+    border-radius: 2px;
+    margin: 1vh 20vw;
+}
+.showAdded{
+    display: block;
+}
+
 
 /* responsive */
 @media screen and (max-width : 768px){
