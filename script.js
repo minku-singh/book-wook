@@ -41,6 +41,7 @@ function handleSubmit(e){
 
     addBookToLibrary();
     bookAdded.style.display = "block";
+    bookAdded.textContent = "Book Added! Scroll down to see"
     bookAdded.style.backgroundColor = "green";
     setTimeout(() => {
         bookAdded.style.display = "none";
