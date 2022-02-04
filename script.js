@@ -30,6 +30,7 @@ function handleSubmit(e){
     if(book.value == "" || author.value == ""){
         bookAdded.style.display = "block";
         bookAdded.textContent = "Ahhh... Incomplete details, Book can't be added!"
+        bookAdded.style.backgroundColor = "red";
         setTimeout(() => {
             bookAdded.style.display = "none";
         }, 1500)
